@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&family=Noto+Sans+Lao:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+/* ใช้ class .dark บน html เพื่อสลับ dark mode (ไม่ใช้แค่ระบบ) */
+@custom-variant dark (&:where(.dark, .dark *));

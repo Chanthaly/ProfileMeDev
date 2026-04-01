@@ -1,0 +1,29 @@
+.ant-menu {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+.ant-menu-item {
+  background-color: transparent;
+ 
+color:  white  !important ;
+font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.ant-menu-item-selected ,.ant-menu-item:hover{
+    color: blue !important;
+    text-decoration: none;
+}
+
+.ant-menu-item:hover {
+  background-color: lightgreen;
+   opacity: 0.1;
+  
+}
+MenuOutlined {
+color: #fff;
+}

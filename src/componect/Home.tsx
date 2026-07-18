@@ -33,10 +33,10 @@ const Home = () => {
       <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
         
         {/* ส่วนข้อความด้านซ้าย */}
-        <AnimateOnScroll className="flex-1 text-center lg:text-left max-w-xl lg:max-w-lg">
+        <AnimateOnScroll className="flex-1 text-left max-w-xl lg:max-w-lg">
           <Typingtext />
           
-          <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4">
+          <div className="mt-8 flex flex-wrap items-center justify-start gap-4">
             <Button
               type="primary"
               size="large"

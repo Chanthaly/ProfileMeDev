@@ -21,13 +21,9 @@
   return (
 
 
-<h2  className=" w-200 md:text-4xl 
- sm:text-2xl 
-   !text-white p-2    
-   
-   transition-all duration-300 ease-in-out
-   "
-   >{Dipslay}</h2>
+<h2 className="w-full text-left text-2xl sm:text-3xl md:text-4xl !text-white p-2 transition-all duration-300 ease-in-out">
+  {Dipslay}
+</h2>
 
   )
   

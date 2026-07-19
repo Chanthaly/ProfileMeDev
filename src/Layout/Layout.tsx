@@ -95,10 +95,14 @@ const ProtectRoute = () => {
   )
 
   return (
-    <Layout className="min-h-screen w-full bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-gradient-to-b dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 dark:text-white">
-      <Header className="sticky top-0 z-50 flex w-full items-center justify-between gap-4 bg-blue-500/90 px-4 shadow-md shadow-blue-300 backdrop-blur-md md:px-8">
+    <Layout className="min-h-screen w-full bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-gradient-to-b dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 dark:text-white h-4/6">
+      <Header className="app-header sticky top-0 z-50 flex h-20 w-full items-center justify-between gap-7 bg-white/80 px-4 text-slate-800 backdrop-blur-md md:px-8 dark:bg-slate-900/80 dark:text-white">
         <div className="flex items-center gap-2">
-          <h2 className="text-2xl font-bold text-white">ME DEV</h2>
+          <img
+            src="/Logo.png"
+            alt="MEDEV logo"
+            className="navbar-logo h-10 w-10 rounded-lg object-cover sm:h-12 sm:w-12"
+          />
         </div>
 
         <div className="hidden flex-1 items-center justify-center md:flex">

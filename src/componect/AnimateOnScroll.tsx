@@ -13,8 +13,18 @@ const AnimateOnScroll = ({ children, className, delay = 0 }: Props) => {
 
   const variants = useMemo(
     () => ({
-      hidden: { opacity: 0, y: 18, filter: "blur(6px)" },
-      show: { opacity: 1, y: 0, filter: "blur(0px)" },
+      hidden: {
+        opacity: 0,
+        y: 24,
+        scale: 0.96,
+        filter: "blur(8px)",
+      },
+      show: {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        filter: "blur(0px)",
+      },
     }),
     [],
   )
@@ -26,7 +36,7 @@ const AnimateOnScroll = ({ children, className, delay = 0 }: Props) => {
       variants={variants}
       initial="hidden"
       animate={inView ? "show" : "hidden"}
-      transition={{ duration: 0.6, ease: "easeOut", delay }}
+      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay }}
     >
       {children}
     </motion.div>

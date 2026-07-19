@@ -1,4 +1,5 @@
 import { Typography } from "antd"
+import { motion } from "framer-motion"
 import {
   FaFacebookMessenger,
   FaGithub,
@@ -35,15 +36,21 @@ const Aside = () => {
         }
 
   return (
-    <AnimateOnScroll>
+    <AnimateOnScroll className="w-full">
       <div className="flex w-full flex-col items-center justify-center bg-transparent px-4 py-10">
-        <img className="h-24 w-24 rounded-2xl" src="/Logo.png" alt="logo" />
+        <motion.img
+          className="h-24 w-24 rounded-2xl shadow-lg shadow-blue-500/20"
+          src="/Logo.png"
+          alt="logo"
+          whileHover={{ scale: 1.08, rotate: 2 }}
+          transition={{ type: "spring", stiffness: 220, damping: 18 }}
+        />
 
         <Typography.Title
           level={4}
           className="!mb-3 !mt-4 flex w-full flex-col items-center justify-center gap-2 text-center !text-slate-900 dark:!text-white"
         >
-          <FaHouse className="text-3xl text-rose-500" title={t.address} />
+          <FaHouse className="text-3xl text-cyan-500" title={t.address} />
           <span className="text-base font-semibold">{t.addressText}</span>
         </Typography.Title>
 

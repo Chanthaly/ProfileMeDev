@@ -15,7 +15,7 @@ const Exprirent = () => {
           jobs: [
             { title: "IT Support — บริษัท โชคทวี", desc: "2024 – 2026" },
             {
-              title: "IT Support — บริษัท lailaolab",
+              title: "IT Support — บริษัท LEKITECC",
               desc: "2026 – ปัจจุบัน",
             },
           ],
@@ -34,7 +34,7 @@ const Exprirent = () => {
           present: "Present",
           jobs: [
             { title: "IT Support — Chokthavee Company", desc: "2024 – 2026" },
-            { title: "IT Support — lailaolab", desc: "2026 – Present" },
+            { title: "IT Support — LEKITECC", desc: "2026 – Present" },
           ],
           projects: [
             { title: "Landing Page", desc: "Static / marketing landing pages" },
@@ -50,7 +50,7 @@ const Exprirent = () => {
           present: "ປັດຈຸບັນ",
           jobs: [
             { title: "IT Support — ບໍລິສັດ ໂຊກທະວີ", desc: "2024 – 2026" },
-            { title: "IT Support — ບໍລິສັດ lailaolab", desc: "2026 – ປັດຈຸບັນ" },
+            { title: "IT Support — ບໍລິສັດ LEKITECC", desc: "2026 – ປັດຈຸບັນ" },
           ],
           projects: [
             { title: "Landing Page", desc: "ໜ້າໂປຣໂມດ / ການຕະຫຼາດ" },
